@@ -2,9 +2,9 @@
 
 *Data wejścia w życie: 15 maja 2026*
 
-DireCTLy to bezpłatna, niekomercyjna aplikacja na iOS, prezentująca rozkłady jazdy i komunikaty komunikacji miejskiej w regionie Chrzanowa (ZKKM). Aplikacja jest projektem hobbystycznym jednej osoby i nie jest powiązana z ZKKM ani z żadnym przewoźnikiem.
+DireCTLy to bezpłatna, niekomercyjna aplikacja na system iOS, udostępniająca rozkłady jazdy oraz komunikaty dla komunikacji  miejskiej w gminach Chrzanów, Trzebinia, Libiąż oraz okolicznych miejscowościach. Aplikacja jest projektem niezależnym, tworzonym przez osobę prywatną w czasie wolnym, i nie jest powiązana z żadnym oficjalnym przewoźnikiem ani administratorem komunikacji publicznej w obsługiwanym regionie.
 
-Kontakt z autorem: **hellodirectly@gmail.com**.
+W sprawach związanych z aplikacją z autorem można skontaktować się  pod adresem e-mail: **hellodirectly@gmail.com**.
 
 ## 1. Zasada nadrzędna
 
