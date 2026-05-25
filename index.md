@@ -1,6 +1,6 @@
 # Polityka prywatności aplikacji DireCTLy
 
-*Data wejścia w życie: 15 maja 2026*
+*Data wejścia w życie: 25 maja 2026*
 
 DireCTLy to bezpłatna, niekomercyjna aplikacja na system iOS, udostępniająca rozkłady jazdy oraz komunikaty dla komunikacji  miejskiej w gminach Chrzanów, Trzebinia, Libiąż oraz okolicznych miejscowościach. Aplikacja jest projektem niezależnym, tworzonym przez osobę prywatną w czasie wolnym, i nie jest powiązana z żadnym oficjalnym przewoźnikiem ani administratorem komunikacji publicznej w obsługiwanym regionie.
 
