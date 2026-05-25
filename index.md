@@ -23,13 +23,13 @@ Dane te nigdy nie opuszczają urządzenia. Usunięcie aplikacji powoduje ich trw
 
 ## 3. Lokalizacja
 
-Po wyrażeniu zgody w systemowym oknie iOS aplikacja korzysta z usług lokalizacji wyłącznie po to, aby wskazać najbliższy przystanek. Współrzędne pozostają na urządzeniu – nie są wysyłane do autora ani do żadnego innego podmiotu. Zgodę można w dowolnej chwili cofnąć w Ustawieniach iOS → Prywatność → Usługi lokalizacji.
+Po wyrażeniu zgody w systemowym oknie iOS aplikacja korzysta z usług lokalizacji wyłącznie po to, aby wskazać najbliższy przystanek. Współrzędne pozostają na urządzeniu – nie są wysyłane do autora ani do żadnego innego podmiotu. Zgodę można w dowolnej chwili cofnąć w Ustawieniach iOS → Prywatność i ochrona → Usługi lokalizacji.
 
 ## 4. Połączenia sieciowe
 
 Aby pokazać aktualne dane, aplikacja łączy się z dwiema publicznymi witrynami:
 
-- **zkkm.pl** – w celu pobrania rozkładu jazdy oraz komunikatów ze strony /aktualnosci,
+- **zkkm.pl** – w celu pobrania rozkładu jazdy oraz komunikatów,
 - **kiedyprzyjedzie.pl** – w celu pobrania informacji o rzeczywistych odjazdach.
 
 Zapytania są anonimowe: aplikacja nie wysyła żadnego identyfikatora użytkownika, nazwy urządzenia, lokalizacji ani tokenu. Operatorzy obu serwisów widzą jedynie standardowe dane techniczne towarzyszące każdej wizycie w internecie (adres IP, nazwa User-Agent). Zasady przetwarzania tych danych określają polityki prywatności zkkm.pl oraz kiedyprzyjedzie.pl – autor aplikacji nie ma na to wpływu i nie jest ich administratorem.
