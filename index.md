@@ -4,7 +4,7 @@
 
 DireCTLy to bezpłatna, niekomercyjna aplikacja na system iOS, udostępniająca rozkłady jazdy oraz komunikaty dla komunikacji  miejskiej w gminach Chrzanów, Trzebinia, Libiąż oraz okolicznych miejscowościach. Aplikacja jest projektem niezależnym, tworzonym przez osobę prywatną w czasie wolnym, i nie jest powiązana z żadnym oficjalnym przewoźnikiem ani administratorem komunikacji publicznej w obsługiwanym regionie.
 
-W sprawach związanych z aplikacją z autorem można skontaktować się  pod adresem e-mail: **hellodirectly@gmail.com**.
+W sprawach związanych z aplikacją można skontaktować się z autorem pod adresem: **hellodirectly@gmail.com**.
 
 ## 1. Zasada nadrzędna
 
