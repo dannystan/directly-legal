@@ -1,6 +1,6 @@
 # Polityka prywatności aplikacji DireCTLy
 
-*Data wejścia w życie: 11 lipca 2026 r.*
+*Data wejścia w życie: 31 października 2026 r.*
 
 DireCTLy to bezpłatna, niekomercyjna aplikacja na system iOS, udostępniająca rozkłady jazdy oraz komunikaty komunikacji miejskiej w gminach Chrzanów, Trzebinia i Libiąż oraz w okolicznych miejscowościach. Aplikacja jest projektem niezależnym, tworzonym przez osobę prywatną w czasie wolnym, i nie jest powiązana z żadnym oficjalnym przewoźnikiem ani z organizatorem komunikacji publicznej w obsługiwanym regionie.
 
@@ -16,7 +16,9 @@ Ulubione przystanki, ostatnio wyszukiwane przystanki i trasy, ustawienia, pobran
 
 ## 3. Lokalizacja
 
-Po wyrażeniu zgody w systemowym oknie iOS aplikacja korzysta z usług lokalizacji wyłącznie po to, aby wskazać najbliższy przystanek. Współrzędne pozostają na urządzeniu i nie są wysyłane autorowi. Zgodę można w dowolnej chwili cofnąć w Ustawieniach iOS.
+Po wyrażeniu zgody w systemowym oknie iOS aplikacja korzysta z lokalizacji, aby wskazać pobliskie przystanki oraz planować trasy z miejsca, w którym jesteś, lub do tego miejsca. Współrzędne nie są wysyłane autorowi. Zgodę można w dowolnej chwili cofnąć w Ustawieniach iOS.
+
+Podczas wyszukiwania adresów w aplikacji wpisywane zapytania są przekazywane do usług map firmy Apple, które zwracają podpowiedzi i lokalizację wybranego adresu. Apple przetwarza te zapytania zgodnie ze swoją polityką prywatności. Zapytania nie są wysyłane autorowi.
 
 Jeżeli poprosisz aplikację o wyznaczenie trasy dojścia do przystanku, otwierana jest zewnętrzna aplikacja map (Mapy Apple lub Mapy Google, zależnie od Twojego wyboru w ustawieniach), a do wybranego dostawcy przekazywane są współrzędne punktu początkowego i docelowego trasy. Dane te są przetwarzane zgodnie z polityką prywatności odpowiednio Apple lub Google i nie trafiają do autora.
 
