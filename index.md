@@ -1,5 +1,7 @@
 # Polityka prywatności aplikacji DireCTLy
 
+*Data wejścia w życie: 2 listopada 2026 r.*
+
 DireCTLy to bezpłatna, niekomercyjna aplikacja na iOS, która udostępnia rozkłady jazdy oraz komunikaty dotyczące komunikacji miejskiej w gminach Chrzanów, Trzebinia i Libiąż oraz w okolicznych miejscowościach. Jest niezależnym projektem tworzonym przez osobę prywatną w czasie wolnym. Aplikacja nie jest powiązana z żadnym przewoźnikiem ani organizatorem komunikacji publicznej w obsługiwanym regionie.
 
 Administratorem danych osobowych w rozumieniu RODO jest Daniel Stankowski, autor aplikacji. W sprawach dotyczących aplikacji oraz ochrony danych osobowych możesz skontaktować się z nim pod adresem [hellodirectly@gmail.com](mailto:hellodirectly@gmail.com).
