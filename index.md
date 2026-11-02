@@ -1,71 +1,73 @@
 # Polityka prywatności aplikacji DireCTLy
 
-*Data wejścia w życie: 2 listopada 2026 r.*
+DireCTLy to bezpłatna, niekomercyjna aplikacja na iOS, która udostępnia rozkłady jazdy oraz komunikaty dotyczące komunikacji miejskiej w gminach Chrzanów, Trzebinia i Libiąż oraz w okolicznych miejscowościach. Jest niezależnym projektem tworzonym przez osobę prywatną w czasie wolnym. Aplikacja nie jest powiązana z żadnym przewoźnikiem ani organizatorem komunikacji publicznej w obsługiwanym regionie.
 
-DireCTLy to bezpłatna, niekomercyjna aplikacja na system iOS, udostępniająca rozkłady jazdy oraz komunikaty komunikacji miejskiej w gminach Chrzanów, Trzebinia i Libiąż oraz w okolicznych miejscowościach. Aplikacja jest projektem niezależnym, tworzonym przez osobę prywatną w czasie wolnym, i nie jest powiązana z żadnym oficjalnym przewoźnikiem ani z organizatorem komunikacji publicznej w obsługiwanym regionie.
+Administratorem danych osobowych w rozumieniu RODO jest Daniel Stankowski, autor aplikacji. W sprawach dotyczących aplikacji oraz ochrony danych osobowych możesz skontaktować się z nim pod adresem [hellodirectly@gmail.com](mailto:hellodirectly@gmail.com).
 
-Administratorem danych osobowych w rozumieniu RODO jest **Daniel Stankowski**, osoba prywatna tworząca aplikację. Kontakt w sprawach dotyczących aplikacji oraz danych osobowych jest możliwy pod adresem: **hellodirectly@gmail.com**.
+## 1. Połączenia z serwerami
 
-## 1. Zasada ogólna
+Aplikacja korzysta z serwerów wymienionych poniżej podmiotów. Każdy z tych serwerów otrzymuje adres IP Twojego urządzenia oraz podstawowe informacje techniczne o połączeniu.
 
-Aplikacja nie wymaga konta, logowania ani rejestracji. Nie zbiera danych analitycznych, nie zawiera narzędzi do raportowania błędów ani zewnętrznych zestawów SDK służących do reklam, analityki lub śledzenia. Za pośrednictwem aplikacji autor otrzymuje dane o Tobie tylko wtedy, gdy włączysz powiadomienia o komunikatach (punkt 5) lub wyślesz wiadomość e-mail (punkt 6).
+* Operator serwisu kiedyprzyjedzie.pl dostarcza dane w czasie rzeczywistym o odjazdach i pojazdach. Otrzymuje również identyfikator przystanku lub kursu, którego dotyczy zapytanie aplikacji.
+* Związek Komunalny „Komunikacja Międzygminna” w Chrzanowie (ZKKM, zkkm.pl) udostępnia komunikaty i aktualne rozkłady jazdy.
+* GitHub udostępnia aktualizacje rozkładu jazdy oraz informację o dostępności danych w czasie rzeczywistym.
+* Apple obsługuje mapy, wyszukiwanie adresów i sprawdzanie dostępności nowej wersji aplikacji. Może otrzymywać informacje o wyświetlanym obszarze mapy, a podczas wyszukiwania otrzymuje wpisywane zapytania.
+* Cloudflare obsługuje serwer powiadomień autora, z którym aplikacja łączy się wyłącznie w związku z powiadomieniami o komunikatach opisanymi w punkcie 3.
 
-## 2. Połączenia z serwerami zewnętrznymi
+Podstawą prawną przekazywania przez aplikację opisanych w tym punkcie danych jest prawnie uzasadniony interes autora, polegający na zapewnieniu działania aplikacji (art. 6 ust. 1 lit. f RODO).
 
-Do działania aplikacja łączy się z serwerami wymienionymi poniżej. Przy każdym połączeniu odbiorca otrzymuje adres IP, z którego korzysta telefon, oraz podstawowe informacje techniczne żądania. Aplikacja nie dołącza do tych połączeń Twoich współrzędnych ani danych identyfikujących użytkownika, z wyjątkiem tokenu opisanego w punkcie 5.
+Autor nie otrzymuje adresów IP od operatora serwisu kiedyprzyjedzie.pl, ZKKM, GitHuba ani Apple. Nie zapisuje ich również w bazie danych serwera powiadomień. Cloudflare przetwarza adresy IP związane z połączeniami z serwerem powiadomień w swoich rejestrach (logach) przez czas niezbędny do świadczenia usługi.
 
-Operator serwisu kiedyprzyjedzie.pl (zkkm.kiedyprzyjedzie.pl) dostarcza dane na żywo o odjazdach i pojazdach. Otrzymuje również identyfikator przystanku lub kursu, którego dotyczy żądanie, na przykład oglądanego przystanku lub przystanku zapisanego w ulubionych.
+## 2. Lokalizacja
 
-Związek Komunalny „Komunikacja Międzygminna” w Chrzanowie (ZKKM, zkkm.pl) udostępnia komunikaty oraz oficjalne rozkłady jazdy, których aktualność sprawdza aplikacja. Gdy włączone są powiadomienia o komunikatach, aplikacja może łączyć się z tym serwisem również w tle.
+Jeżeli wyrazisz zgodę w systemowym oknie iOS, aplikacja korzysta z Twojej lokalizacji, aby wyświetlać Twoje położenie na mapie i odległość do przystanku, wskazywać pobliskie przystanki oraz planować trasy z Twojej bieżącej lokalizacji lub do niej. Współrzędne Twojej lokalizacji nie są przekazywane autorowi.
 
-GitHub Pages, usługa firmy GitHub, udostępnia aktualizacje rozkładu jazdy przygotowane przez autora oraz informację o stanie usługi.
+Podstawą prawną przetwarzania danych o lokalizacji jest Twoja zgoda (art. 6 ust. 1 lit. a RODO). Możesz ją cofnąć w dowolnym momencie w ustawieniach iOS. Cofnięcie zgody nie wpływa na zgodność z prawem przetwarzania dokonanego na jej podstawie przed jej cofnięciem.
 
-Apple obsługuje sprawdzanie nowej wersji aplikacji w App Store, wyświetlanie map oraz wyszukiwanie adresów opisane w punkcie 4. Przy wyświetlaniu map Apple może otrzymywać informację o oglądanym obszarze.
+Jeżeli poprosisz o wyznaczenie trasy pieszej, współrzędne trasy zostaną przekazane do aplikacji Apple Maps albo do Google Maps, jeśli ta druga została wybrana i jest zainstalowana na urządzeniu. Podstawą prawną tego przekazania jest prawnie uzasadniony interes autora opisany w punkcie 1 (art. 6 ust. 1 lit. f RODO).
 
-Cloudflare obsługuje serwer powiadomień autora. Aplikacja łączy się z nim wyłącznie w związku z powiadomieniami o komunikatach (punkt 5). Serwer nie zapisuje adresów IP w swojej bazie danych.
+## 3. Powiadomienia o komunikatach
 
-Operator serwisu kiedyprzyjedzie.pl, ZKKM, GitHub i Apple przetwarzają te dane na własnych zasadach, a autor nie otrzymuje od nich adresów IP użytkowników aplikacji. GitHub, Apple i Cloudflare mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym.
+Jeżeli włączysz powiadomienia o komunikatach, aplikacja prześle na serwer autora token urządzenia, czyli uzyskany od Apple identyfikator umożliwiający dostarczanie powiadomień.
 
-Linki otwierane w aplikacji (na przykład artykuły z komunikatami i strony na ekranie Licencje) prowadzą do stron zewnętrznych, które przetwarzają dane na własnych zasadach. Aplikacja nie ma dostępu do tego, co na nich robisz.
+Serwer przechowuje token wraz z oznaczeniem systemu i rodzaju wersji aplikacji oraz datami pierwszej rejestracji i ostatniego otwarcia aplikacji. Token jest wykorzystywany wyłącznie do wysyłania tych powiadomień. Jego odbiorcami są Cloudflare i Apple.
 
-## 3. Dane na urządzeniu i kopie zapasowe
+Podstawą prawną przetwarzania tych danych jest Twoja zgoda (art. 6 ust. 1 lit. a RODO). Możesz ją cofnąć w dowolnym momencie, wyłączając powiadomienia w aplikacji. Cofnięcie zgody nie wpływa na zgodność z prawem przetwarzania dokonanego na jej podstawie przed jej cofnięciem.
 
-Ulubione przystanki, ostatnio wyszukiwane przystanki, adresy i trasy, przypomnienia o odjazdach, ustawienia, pobrany rozkład jazdy oraz zapisane odpowiedzi serwerów (pamięć podręczna) są przechowywane na urządzeniu. Aplikacja nie przesyła ich autorowi.
+Token jest przechowywany, dopóki powiadomienia są włączone w aplikacji. Po ich wyłączeniu zostaje usunięty, gdy do serwera dotrze wysłane przez aplikację żądanie usunięcia.
 
-Kopia zapasowa w iCloud lub na komputerze może zawierać te dane, zgodnie z ustawieniami Twojego urządzenia i konta. Autor nie ma dostępu do tych kopii. Odinstalowanie aplikacji usuwa jej dane z urządzenia, ale kopie zapasowe mogą nadal je zawierać, a przywrócenie kopii może je odtworzyć. Kopiami zarządzasz w Ustawieniach iOS lub na komputerze.
+Po odinstalowaniu aplikacji token zostaje usunięty dopiero wtedy, gdy Apple poinformuje przy próbie wysłania powiadomienia, że token nie jest już aktywny.
 
-## 4. Lokalizacja i mapy
+## 4. Wiadomości e-mail i zgłoszenia problemów
 
-Po wyrażeniu zgody w systemowym oknie iOS aplikacja korzysta z lokalizacji, aby wskazać pobliskie przystanki oraz planować trasy z miejsca, w którym jesteś, lub do tego miejsca. Współrzędne nie są wysyłane autorowi. Zgodę można w dowolnej chwili cofnąć w Ustawieniach iOS.
+Jeżeli napiszesz do autora, otrzyma on Twój adres e-mail, nazwę nadawcy (jeżeli jest ustawiona) oraz temat i treść wiadomości. Wiadomość wysłana z aplikacji zawiera również informacje o wersji aplikacji i systemu iOS, a zgłoszenie problemu także dane wskazanego przystanku lub trasy: nazwy, identyfikatory, linie, kierunek i godziny.
 
-Podczas wyszukiwania adresów w aplikacji wpisywane zapytania są przekazywane do usług map firmy Apple, które zwracają podpowiedzi i lokalizację wybranego adresu. Apple przetwarza te zapytania zgodnie ze swoją polityką prywatności. Zapytania nie są wysyłane autorowi.
+Dane te są wykorzystywane wyłącznie do udzielenia odpowiedzi oraz sprawdzenia i rozwiązania zgłoszonego problemu. Podstawą prawną ich przetwarzania jest prawnie uzasadniony interes autora, polegający na obsłudze korespondencji i poprawianiu danych w aplikacji (art. 6 ust. 1 lit. f RODO).
 
-Jeżeli poprosisz aplikację o wyznaczenie trasy dojścia do przystanku, otwierana jest zewnętrzna aplikacja map (Apple Maps lub Google Maps, zależnie od Twojego wyboru w ustawieniach), a do wybranego dostawcy przekazywane są współrzędne punktu początkowego i docelowego trasy. Dane te są przetwarzane zgodnie z polityką prywatności odpowiednio Apple lub Google i nie trafiają do autora.
+Wiadomości są przechowywane nie dłużej niż przez 12 miesięcy od ich otrzymania. Odbiorcą danych jest Google, który obsługuje skrzynkę pocztową autora w usłudze Gmail.
 
-## 5. Powiadomienia o komunikatach oraz token urządzenia
+## 5. Przekazywanie danych poza Europejski Obszar Gospodarczy
 
-Jeżeli włączysz powiadomienia o nowych komunikatach, aplikacja rejestruje się w usłudze Apple Push Notification service (APNs) i uzyskuje token urządzenia (identyfikator umożliwiający dostarczanie powiadomień). Token ten zostaje przesłany na serwer autora, działający w usłudze Cloudflare Workers. Serwer przechowuje go wraz z oznaczeniem systemu i rodzaju kompilacji aplikacji oraz datami pierwszej i ostatniej rejestracji i wykorzystuje wyłącznie do wysyłania powiadomień o komunikatach.
+GitHub, Apple, Cloudflare i Google mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym (EOG), w tym w Stanach Zjednoczonych.
 
-Podstawą prawną przetwarzania tokenu jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), wyrażona przez włączenie powiadomień. Zgodę możesz wycofać w każdej chwili, wyłączając powiadomienia w aplikacji. Aplikacja prosi wtedy serwer o usunięcie tokenu, a jeżeli prośba nie dotrze, ponawia ją przy kolejnym otwarciu. Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania, którego dokonano przed jej wycofaniem.
+Podstawą przekazywania danych jest decyzja Komisji Europejskiej stwierdzająca odpowiedni stopień ochrony lub standardowe klauzule umowne. Decyzja dotycząca EU–US Data Privacy Framework ma zastosowanie do podmiotów w USA objętych tym programem.
 
-Token jest przechowywany, dopóki powiadomienia pozostają włączone w aplikacji. Serwer nie usuwa tokenów z powodu samego upływu czasu. Wyłączenie powiadomień wyłącznie w Ustawieniach iOS zatrzymuje ich wyświetlanie, a token pozostaje na serwerze, dopóki nie wyświetlisz ekranu Ustawienia w aplikacji. Aplikacja wyłącza wtedy powiadomienia i prosi serwer o usunięcie tokenu. Po odinstalowaniu aplikacji token zostaje usunięty dopiero wtedy, gdy usługa APNs zgłosi przy wysyłce powiadomienia, że nie jest on już aktywny.
+Treść standardowych klauzul umownych jest dostępna na [stronie Komisji Europejskiej](https://commission.europa.eu/publications/publications-standard-contractual-clauses-sccs_en).
 
-Token jest udostępniany firmie Cloudflare, dostawcy usługi hostingu (podmiotowi przetwarzającemu), oraz usłudze APNs firmy Apple, która dostarcza powiadomienia na urządzenie. Podmioty te zapewniają odpowiedni poziom ochrony danych. Ponieważ dostawcy ci mogą przetwarzać token poza Europejskim Obszarem Gospodarczym, przekazanie odbywa się na podstawie decyzji Komisji Europejskiej stwierdzającej odpowiedni stopień ochrony (EU-US Data Privacy Framework) lub na podstawie standardowych klauzul umownych.
+ZKKM i operator serwisu kiedyprzyjedzie.pl podlegają RODO, tak jak autor, a GitHub, Apple, Cloudflare i Google zapewniają równoważną ochronę danych na podstawach opisanych powyżej.
 
-## 6. Wiadomości e-mail i zgłoszenia problemów
+## 6. Czy podanie danych jest obowiązkowe
 
-Aplikacja umożliwia kontakt z autorem oraz zgłoszenie problemu z odjazdem, przystankiem lub trasą. W obu przypadkach otwiera przygotowaną wiadomość w Twojej aplikacji pocztowej. Wiadomość zostaje wysłana tylko wtedy, gdy ją wyślesz, a przed wysłaniem możesz sprawdzić i zmienić jej treść.
+Podanie danych jest dobrowolne, jednak niektóre z nich są niezbędne do korzystania z określonych funkcji aplikacji.
 
-Autor otrzymuje Twój adres e-mail i nazwę nadawcy, jeżeli jest ustawiona, temat i treść wiadomości oraz dopisane na jej końcu wersje aplikacji i systemu iOS. Zgłoszenie problemu zawiera ponadto dane wskazanego elementu: nazwę i identyfikatory przystanku, linię, kierunek, pokazaną godzinę z informacją, czy pochodzi z danych na żywo, czy z rozkładu, oraz bieżącą godzinę, a w przypadku trasy nazwy punktów początkowego i docelowego, linie oraz godziny odjazdu i przyjazdu.
-
-Dane te służą wyłącznie do udzielenia odpowiedzi oraz sprawdzenia i poprawienia zgłoszonego problemu. Podstawą prawną jest prawnie uzasadniony interes autora, polegający na obsłudze korespondencji i poprawianiu danych w aplikacji (art. 6 ust. 1 lit. f RODO). Wiadomości są przechowywane nie dłużej niż 12 miesięcy od ich otrzymania.
-
-Skrzynkę pocztową autora obsługuje usługa Gmail firmy Google, która przetwarza wiadomości zgodnie ze swoją polityką prywatności i może przetwarzać je poza Europejskim Obszarem Gospodarczym.
+Bez połączeń z serwerami nie będą działać funkcje opisane w punkcie 1. Bez zgody na dostęp do lokalizacji nie będą dostępne funkcje wykorzystujące Twoje położenie, opisane w punkcie 2. Bez tokenu urządzenia nie będzie możliwe otrzymywanie powiadomień o komunikatach, a bez adresu e-mail autor nie będzie mógł odpowiedzieć na Twoją wiadomość.
 
 ## 7. Twoje prawa
 
-W odniesieniu do tokenu oraz wiadomości e-mail wysłanych do autora przysługuje Ci, w zakresie określonym w RODO, prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania i wniesienia sprzeciwu, a w odniesieniu do tokenu także prawo przenoszenia danych oraz wycofania zgody w sposób opisany w punkcie 5. W tych sprawach możesz skontaktować się z autorem pod adresem **hellodirectly@gmail.com**. Przysługuje Ci także prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych ([uodo.gov.pl](https://uodo.gov.pl)).
+W odniesieniu do danych przetwarzanych przez autora, w tym adresu IP przy połączeniu z serwerem powiadomień, tokenu urządzenia i danych zawartych w wiadomościach e-mail, przysługują Ci, w zakresie określonym w RODO, prawa dostępu do danych, ich sprostowania, usunięcia oraz ograniczenia przetwarzania. W odniesieniu do tokenu urządzenia przysługuje Ci również prawo do przenoszenia danych.
 
-## 8. Zmiany polityki
+Masz prawo w dowolnym momencie wnieść sprzeciw, z przyczyn związanych z Twoją szczególną sytuacją, wobec przetwarzania danych opartego na prawnie uzasadnionym interesie autora (art. 21 RODO).
 
-Aktualna wersja polityki jest dostępna w aplikacji oraz na tej stronie internetowej. W razie zmian zaktualizowana zostanie data wejścia w życie na początku dokumentu.
+W sprawach dotyczących przetwarzania danych osobowych i korzystania z tych praw możesz skontaktować się z autorem pod adresem [hellodirectly@gmail.com](mailto:hellodirectly@gmail.com).
+
+Przysługuje Ci także prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych.
